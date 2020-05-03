@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "0f06df71-aad6-4e61-85e4-2c967d941f8f",
+		"name": "Postman_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/filteredimage Localhost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/filteredimage?image_url=http://myhighlandoaks.com/img/subdivisionsignage.jpg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"filteredimage"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "http://myhighlandoaks.com/img/subdivisionsignage.jpg"
+						}
+					]
+				},
+				"description": "A successful call"
+			},
+			"response": []
+		},
+		{
+			"name": "/filteredimage  AWS Elastic Beanstalk Endpoint",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://image-filter-dev-dev.us-east-2.elasticbeanstalk.com/filteredimage?image_url=https://s.yimg.com/ny/api/res/1.2/UteI3ISK0BEEW.zprA5TIA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTcwNS4yMzQxNTk3Nzk2MTQz/https://s.yimg.com/uu/api/res/1.2/7q7QUWc3dRb3crYerZ6A8Q--~B/aD00MDA7dz0zNjM7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/6d072075166c695a127c5a75002fd4ca",
+					"protocol": "http",
+					"host": [
+						"image-filter-dev-dev",
+						"us-east-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"filteredimage"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "https://s.yimg.com/ny/api/res/1.2/UteI3ISK0BEEW.zprA5TIA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTcwNS4yMzQxNTk3Nzk2MTQz/https://s.yimg.com/uu/api/res/1.2/7q7QUWc3dRb3crYerZ6A8Q--~B/aD00MDA7dz0zNjM7c209MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/prnewswire.com/6d072075166c695a127c5a75002fd4ca"
+						}
+					]
+				},
+				"description": "Call the public AWS cloud endpoint"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
