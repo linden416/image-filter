@@ -1,0 +1,29 @@
+swagger: "2.0"
+info:
+  description: ""
+  version: "1.0.0"
+  title: "Filter Image"
+  contact:
+    email: "linden416@gmail.com"
+host: "localhost:8082"
+basePath: "/"
+paths:
+  /filteredimage:
+    get:
+      summary: "Alter the quality of image to lessen the size"
+      description: "Specify the required query parameter `image url`, the response will return a smaller, black and white, lower resolution copy of image."
+      parameters:
+      - name: "image_url"
+        in: "query"
+        description: "URL of an image"
+        required: true
+        type: "string"
+      responses:
+        "200":
+          description: "successful operation"
+        "400":
+          description: "Bad Request - Image_URL is required"
+        "404":
+          description: "Not Found - File Not Found"
+        "500":
+          description: "Internal Server Error"
