@@ -30,3 +30,36 @@ http://image-filter-dev-dev.us-east-2.elasticbeanstalk.com/filteredimage?image_u
 400 Bad Request / Invalid URL
 500 Internal Server Error
 ```
+#### References ####
+[JavaScript Promises and Async/Await]
+(https://itnext.io/javascript-promises-and-async-await-as-fast-as-possible-d7c8c8ff0abc)
+
+[StackOverflow - UnhandledPromiseRejectionWarning, Express.js and Node.js]
+(https://stackoverflow.com/questions/51484947/unhandledpromiserejectionwarning-express-js-and-node-js)
+
+[Reddit - How to execute a function after http response is sent successfully]
+(https://www.reddit.com/r/node/comments/4rvdi5/how_to_execute_a_function_after_http_response_is/)
+
+[MDN Web Docs - Promise.reject()]
+(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject)
+
+[StackOverflow - Unhandled rejections in Express applications]
+(https://stackoverflow.com/questions/33410101/unhandled-rejections-in-express-applications)
+
+[Promises in Express.js: APIs & Testing]
+(https://medium.com/@54m/promises-in-express-js-apis-testing-dd0243163d57)
+
+[Express 4.x API]
+(https://expressjs.com/en/api.html#res)
+
+Udacity Knowledge base
+https://knowledge.udacity.com/questions/120916
+
+bluebird module
+http://bluebirdjs.com/docs/getting-started.html
+
+jsonwebtoken module
+https://www.npmjs.com/package/jsonwebtoken
+
+How to use ‘sequelize.sync()’ without difficulties
+https://medium.com/@smallbee/how-to-use-sequelize-sync-without-difficulties-4645a8d96841
